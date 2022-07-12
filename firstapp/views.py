@@ -9,3 +9,6 @@ def load_first_page(request):
 #load second page
 def load_sec_page(request):
     return render(request,'second.html')
+
+def load_third(request):
+    return render(request,'base.html')
